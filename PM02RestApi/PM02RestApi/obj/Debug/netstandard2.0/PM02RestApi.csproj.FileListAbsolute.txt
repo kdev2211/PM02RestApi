@@ -1,0 +1,15 @@
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\bin\Debug\netstandard2.0\PM02RestApi.deps.json
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\bin\Debug\netstandard2.0\PM02RestApi.dll
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\bin\Debug\netstandard2.0\ref\PM02RestApi.dll
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\bin\Debug\netstandard2.0\PM02RestApi.pdb
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\obj\Debug\netstandard2.0\PM02RestApi.csprojAssemblyReference.cache
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\obj\Debug\netstandard2.0\PM02RestApi.AssemblyInfoInputs.cache
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\obj\Debug\netstandard2.0\PM02RestApi.AssemblyInfo.cs
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\obj\Debug\netstandard2.0\PM02RestApi.csproj.CoreCompileInputs.cache
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\obj\Debug\netstandard2.0\PM02RestApi.dll
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\obj\Debug\netstandard2.0\ref\PM02RestApi.dll
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\obj\Debug\netstandard2.0\PM02RestApi.pdb
+C:\Dev\PM02RestApi\PM02RestApi\PM02RestApi\obj\Debug\netstandard2.0\CountryPage.xaml.g.cs

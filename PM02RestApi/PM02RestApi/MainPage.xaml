@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02RestApi.MainPage"
+             
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ffimageloadingsvg:SvgImageSourceConverter
+                x:Key="SvgImageSourceConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+
+
+        <Picker x:Name="Cpicker"
+        Title="SELECCIONAR UNA REGION" SelectedIndexChanged="itemSlct"></Picker>
+
+        <ListView x:Name="ListViewPaises" RowHeight="60" ItemTapped="ListaPaises_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="8,0,8,0">
+                            <ffimageloading:CachedImage  Grid.Column="1"
+                            VerticalOptions="Center"
+                            HeightRequest="20"
+                            Source="{Binding flag, Converter={StaticResource SvgImageSourceConverter}}">
+                            </ffimageloading:CachedImage>
+                            <Label Text="{Binding name}"  VerticalOptions="Center"/>
+                            <Label Text="("  VerticalOptions="Center"/>
+                            <Label Text="{Binding alpha3Code}"  VerticalOptions="Center"/>
+                            <Label Text=")"  VerticalOptions="Center"/>
+                
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+
+</ContentPage>
